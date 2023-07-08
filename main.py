@@ -8,7 +8,7 @@ import joblib
 app = FastAPI()
 
 
-df = pd.read_csv('../individualProjectMLOPI/clean_data.csv')
+df = pd.read_csv('./individualProjectMLOPI/clean_data.csv')
 
 @app.get("/")
 async def root():
