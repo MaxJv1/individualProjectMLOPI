@@ -8,7 +8,9 @@ import joblib
 app = FastAPI()
 
 
-df = pd.read_csv('./clean_data.csv')
+df = pd.read_csv('./dataset/clean_data.csv')
+
+print(df)
 
 @app.get("/")
 async def root():
@@ -58,6 +60,7 @@ def peliculas_duracion(pelicula: str):
     anio = pelicula_filtrada['release_year'].values[0]  # it gets the released year.
     
     return {'pelicula': pelicula, 'duracion': duracion, 'anio': anio}
+
 
 @app.get('/franquicia/{franquicia}')
 def franquicia(franquicia: str):
@@ -204,5 +207,6 @@ def recomendacion(titulo: str):
     peliculas_recomendadas = df.iloc[similar_indices]['title'].tolist()
     
     return {'lista_recomendada': peliculas_recomendadas}
+
 
 
