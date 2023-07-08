@@ -8,9 +8,7 @@ import joblib
 app = FastAPI()
 
 
-df = pd.read_csv('./dataset/clean_data.csv')
-
-print(df)
+df = pd.read_csv('./clean_datad.csv')
 
 @app.get("/")
 async def root():
@@ -36,6 +34,8 @@ def peliculas_idioma(idioma: str):
     cantidad = sum(df['original_language'].str.lower() == idioma_lower)  # it counts the movies of a given idioma.
     
     return {'idioma': idioma, 'cantidad': cantidad}
+
+#print(peliculas_idioma('en'))
 
 @app.get('/peliculas_duracion/{pelicula}')
 def peliculas_duracion(pelicula: str):
