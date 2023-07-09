@@ -193,9 +193,12 @@ def recomendacion(titulo: str):
     # it gets the index of a given movie (by tittle)
     index = df[df['title'].str.lower() == titulo].index[0]
     
+    # Combine the movie overview and vote_count for the TF-IDF matrix
+    df['overview_with_vote'] = df['overview'] + ' ' + df['vote_count'].astype(str)
+    
     # it gets the characteristic vector TF-IDF for the movie synopsis
     tfidf = TfidfVectorizer(stop_words='english')
-    tfidf_matrix = tfidf.fit_transform(df['overview'].fillna(''))
+    tfidf_matrix = tfidf.fit_transform(df['overview_with_vote'].fillna(''))
     
     # it calculates a punctuation of alikeness(cosine_similarity) between a given movie and other movies.
     similarity_scores = cosine_similarity(tfidf_matrix[index], tfidf_matrix).flatten()
