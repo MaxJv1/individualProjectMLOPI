@@ -3,11 +3,15 @@
 The moviedataset is a collection of around 45000 entries between the years 1980 and 2017 with information of movies on cast, crew, overview, budget, revenue, release dates, languages and more. 
 
 Moviedatasets :
-    * Movies_dataset: it includes features like title, budget, revenue, languages, release dates, languages, production countries         and companies.
+
+    * Movies_dataset: it includes features like title, budget, revenue, languages, release dates, languages, production countries and companies.
+    
     * Credits: it shows information on cast and crew of all the movies.
 
 Main tasks:
+
     * Build APIs to request information.
+    
     * Build a recommender system.
 
 # I. Data Engineering
@@ -41,9 +45,12 @@ I am going to focus on the following aspects:
           5. Visualization (a combination of statistics and visualization).
 
 Note: 
-   * I will "not delete outliers" because we will use a Cosine Similarity and TFIDF model where variability is not important, but 
-     how similar our inputs are.
+
+   * I will "not delete outliers" because we will use a Cosine Similarity and TFIDF model where variability is not important, 
+     but how similar our inputs are.
+     
    * There will be a wordcloud showing the most frecuent words on title and overview.
+     
    * I will choose vote_count over popularity according to the pairplot and correlation matrix. 
 
 This can be seen in data_wranglingEDA.ipynb.
@@ -60,8 +67,11 @@ I will develop a TFIDF model (based on Cosine Similarity) because it adjust bett
 to run the model.
 
 I will use just three variables, not the best approach but still meaningful:
+
     * Title (as an indexer).
+    
     * Overview (from a view of the movie plot: corpus or characters to be compared).
+    
     * vote_count (from a view of the watcher sentiment: corpus).
 
 
