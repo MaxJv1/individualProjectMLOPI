@@ -10,9 +10,9 @@ Main tasks:
     * Build APIs to request information.
     * Build a recommender system.
 
-$ I. Data Engineering
+# I. Data Engineering
 
-I.1 ETL
+# I.1 ETL
 
 You can see all of the procedures done for extraction, transformation and load of the moviedataset.
 The main problems found during ETL to accomplish the main tasks were:
@@ -30,7 +30,7 @@ The main problems found during ETL to accomplish the main tasks were:
           
 This can be seen in data_wranglingETL.ipynb.
 
-I.2 EDA
+# I.2 EDA
 
 I am going to focus on the following aspects: 
  
@@ -48,13 +48,13 @@ Note:
 
 This can be seen in data_wranglingEDA.ipynb.
 
-I.3 API development
+# I.3 API development
 
 I will create functions to be deployed using a FASTAPI framework (RENDER) which means I will consider critical means for the API to be easily and successfully consumed. 
 
 This can be seen in main.py, requirements.txt, .gitignore and Procfile.
 
-II. Data Science
+# II. Data Science
 
 I will develop a TFIDF model (based on Cosine Similarity) because it adjust better the similarities of the variable that i chose 
 to run the model.
@@ -65,7 +65,7 @@ I will use just three variables, not the best approach but still meaningful:
     * vote_count (from a view of the watcher sentiment: corpus).
 
 
-Tools:
+# Tools:
 
 🐍Python: Lenguaje de programación principal utilizado en el desarrollo del proyecto.
 💻Numpy: Utilizado para realizar operaciones numéricas y manipulación de datos.
