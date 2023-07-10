@@ -81,13 +81,7 @@ I will use just three variables, not the best approach but still meaningful:
       <li><b>🌐Render: Plataforma utilizada para el despliegue del modelo y la aplicación.</li>
     </ul>
   </div>
-  <div style="width:50%; text-align:center;">
-    <figure>
-      <img src="Image/infograph.jpg" alt="Ejemplo del deployment usando Heroku(Render)" style="margin-left:auto; margin-right:auto;" />
-      <figcaption style="font-size: smaller; font-style: italic; text-align: center;">Descripción del despliegue de una aplicación desde un repositorio en GitHub usando Heroku (similar a Render)</figcaption>
-    </figure>
-  </div>
-</div>
+ 
 
 # Links
 - [Movies request and recommender system](https://https://first-project-deploy11.onrender.com/docs#/)
