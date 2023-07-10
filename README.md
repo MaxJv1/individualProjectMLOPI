@@ -66,29 +66,40 @@ I will use just three variables, not the best approach but still meaningful:
 
 
 # Tools:
-
-🐍Python: Lenguaje de programación principal utilizado en el desarrollo del proyecto.
-💻Numpy: Utilizado para realizar operaciones numéricas y manipulación de datos.
-🐼Pandas: Utilizado para la manipulación y análisis de datos estructurados.
-📈Matplotlib: Utilizado para la visualización de datos y generación de gráficos.
-📈Seaborn: Utilizado para la visualización de datos y generación de gráficos.
-📊 Scikit Learn: Utilizado para vectorizar, tokenizar y calcular la similitud coseno.
-📳FastAPI: Utilizado para crear la interfaz de la aplicación y procesar los parámetros de funciones.
-🦄Uvicorn: Servidor ASGI utilizado para ejecutar la aplicación FastAPI.
-🌐Render: Plataforma utilizada para el despliegue del modelo y la aplicación.
-
+<div style="display:flex; align-items:center;">
+  <div style="width:50%; padding-right:20px;">
+    <h2>Herramientas Utilizadas</h2>
+    <ul style="text-align: justify;">
+      <li><b>🐍Python: Lenguaje de programación principal utilizado en el desarrollo del proyecto.</li>
+      <li><b>💻Numpy: Utilizado para realizar operaciones numéricas y manipulación de datos.</li>
+      <li>🐼Pandas: Utilizado para la manipulación y análisis de datos estructurados.<b></li>
+      <li><b>📈Matplotlib: Utilizado para la visualización de datos y generación de gráficos.</li>
+      <li><b>📈Seaborn: Utilizado para la visualización de datos y generación de gráficos.</li>
+      <li><b>📊 Scikit Learn: Utilizado para vectorizar, tokenizar y calcular la similitud coseno.</li>
+      <li><b>📳FastAPI: Utilizado para crear la interfaz de la aplicación y procesar los parámetros de funciones.</li>
+      <li><b>🦄Uvicorn: Servidor ASGI utilizado para ejecutar la aplicación FastAPI.</li>
+      <li><b>🌐Render: Plataforma utilizada para el despliegue del modelo y la aplicación.</li>
+    </ul>
+  </div>
+  <div style="width:50%; text-align:center;">
+    <figure>
+      <img src="Image/infograph.jpg" alt="Ejemplo del deployment usando Heroku(Render)" style="margin-left:auto; margin-right:auto;" />
+      <figcaption style="font-size: smaller; font-style: italic; text-align: center;">Descripción del despliegue de una aplicación desde un repositorio en GitHub usando Heroku (similar a Render)</figcaption>
+    </figure>
+  </div>
+</div>
 
 # Links
+- [Movies request and recommender system](https://https://first-project-deploy11.onrender.com/docs#/)
 
-https://first-project-deploy11.onrender.com
 
 # Autor
 
 Max Jeffer Cuellar Vizcarra
 
 Correo electrónico: max_83_14@hotmail.com
+LinkedIn: [Perfil de LinkedIn](https://www.linkedin.com/in/max-jeffer-cuellar-vizcarra-25197433/)
 
-LinkedIn: https://www.linkedin.com/in/max-jeffer-cuellar-vizcarra-25197433/
 
           
 
