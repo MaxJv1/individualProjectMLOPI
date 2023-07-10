@@ -56,7 +56,7 @@ This can be seen in main.py, requirements.txt, .gitignore and Procfile.
 
 # II. Data Science
 
-I will develop a TFIDF model (based on Cosine Similarity) because it adjust better the similarities of the variable that i chose 
+I will develop a TFIDF model (based on Cosine Similarity) because it adjust better the similarities of the variables that i chose 
 to run the model.
 
 I will use just three variables, not the best approach but still meaningful:
