@@ -92,6 +92,7 @@ I will use just three variables, not the best approach but still meaningful:
 Max Jeffer Cuellar Vizcarra
 
 Correo electrónico: max_83_14@hotmail.com
+
 LinkedIn: [Perfil de LinkedIn](https://www.linkedin.com/in/max-jeffer-cuellar-vizcarra-25197433/)
 
 
