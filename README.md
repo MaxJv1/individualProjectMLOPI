@@ -10,7 +10,7 @@ Main tasks:
     * Build APIs to request information.
     * Build a recommender system.
 
-I. Data Engineering
+$ I. Data Engineering
 
 I.1 ETL
 
