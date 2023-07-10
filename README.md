@@ -80,21 +80,21 @@ I will use just three variables, not the best approach but still meaningful:
   <div style="width:50%; padding-right:20px;">
     <h2>Herramientas Utilizadas</h2>
     <ul style="text-align: justify;">
-      <li><b>🐍Python: Lenguaje de programación principal utilizado en el desarrollo del proyecto.</li>
-      <li><b>💻Numpy: Utilizado para realizar operaciones numéricas y manipulación de datos.</li>
-      <li>🐼Pandas: Utilizado para la manipulación y análisis de datos estructurados.<b></li>
-      <li><b>📈Matplotlib: Utilizado para la visualización de datos y generación de gráficos.</li>
-      <li><b>📈Seaborn: Utilizado para la visualización de datos y generación de gráficos.</li>
-      <li><b>📊 Scikit Learn: Utilizado para vectorizar, tokenizar y calcular la similitud coseno.</li>
-      <li><b>📳FastAPI: Utilizado para crear la interfaz de la aplicación y procesar los parámetros de funciones.</li>
-      <li><b>🦄Uvicorn: Servidor ASGI utilizado para ejecutar la aplicación FastAPI.</li>
-      <li><b>🌐Render: Plataforma utilizada para el despliegue del modelo y la aplicación.</li>
+      <li><b>🐍Python.</li>
+      <li><b>💻Numpy.</li>
+      <li>🐼Pandas.<b></li>
+      <li><b>📈Matplotlib.</li>
+      <li><b>📈Seaborn.</li>
+      <li><b>📊 Scikit Learn.</li>
+      <li><b>📳FastAPI.</li>
+      <li><b>🦄Uvicorn.</li>
+      <li><b>🌐Render.</li>
     </ul>
   </div>
  
 
 # Links
-- [Movies request and recommender system](https://https://first-project-deploy11.onrender.com/docs#/)
+- [Movies request and recommender system](https://first-project-deploy11.onrender.com)
 
 
 # Autor
