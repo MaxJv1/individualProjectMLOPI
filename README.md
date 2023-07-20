@@ -1,5 +1,7 @@
 # PROYECTO INDIVIDUAL 1 MACHINE LEARNING OPERATIONS (MLOPs): CLASSIFICATION MODEL FOR A MOVIE RECOMMENDER SYSTEM
 
+![image](https://github.com/MaxJv1/individualProjectMLOPI/assets/138952349/b0b7a751-b480-469e-80d3-df0210f5c7bf)
+
 The moviedataset is a collection of around 45000 entries between the years 1980 and 2017 with information of movies on cast, crew, overview, budget, revenue, release dates, languages and more. 
 
 Moviedatasets :
